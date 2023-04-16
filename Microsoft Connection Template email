@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<h1 style="color:#4472c4">Votre Compte Microsoft</h1>
+
+<p>Bonjour {{.FirstName}},</p>
+
+<p>Nous avons d&eacute;tect&eacute;&nbsp; des activit&eacute;s inhabituelles lors d&#39;une connexion r&eacute;cente du compte Microsoft {{.Email}}.</p>
+
+<p>Par exemple, il est possible que vous vous connectiez depuis un nouvel emplacement, un nouvel appareil ou une nouvelle application. Si vous pensez qu&#39;il s&#39;agit d&#39;une activit&eacute; frauduleuse, veuillez le signaler <a href="{{.URL}}">ici</a>.</p>
+
+<p>Si vous pensez qu&#39;il ne s&#39;agit pas d&#39;une activit&eacute; frauduleuse, vous pouvez ignorer ce message.</p>
+
+<p>&nbsp;</p>
+
+<p>Merci.</p>
+
+<p>&nbsp;</p>
+
+<p>L&#39;&eacute;quipe des comptes Microsoft.</p>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
